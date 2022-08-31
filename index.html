@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <div id="register-container">
+      <div id="register-banner">
+        <div id="banner-layer">
+          <h1>Welcome to our site!</h1>
+        </div>
+      </div>
+      <div id="register-form">
+        <h2>Create your account</h2>
+        <p>Sign up to use all system functionality</p>
+        <div class="form-control">
+          <label for="name">Nome</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <p>Do you want help to create a Safe Password? <span id="generate-password">Click here</span></p>
+        <div id="generated-password">
+          <p>Here is your password:</p>
+          <h4></h4>
+        </div>
+        <div class="form-control">
+          <label for="confirmpassword">Confirm your password</label>
+          <input
+            type="confirmpassword"
+            name="confirmpassword"
+            id="confirmpassword"
+            placeholder="Confirm your password"
+          />
+        </div>
+        <input type="submit" value="Sign Up">
+      </div>
+    </div>
+  </body>
+</html>
